@@ -1,0 +1,253 @@
+
+
+
+
+/*--------------------------------------
+responvive 450 pixels TELPHONES
+----------------------------------------*/
+
+@media only screen and (max-width: 450px) {
+
+    body {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+
+/*--------------------------------------
+GENERAL
+----------------------------------------*/
+
+h2{
+    font-size: 28px !important;
+}
+
+h3{
+    font-size: 24px !important;
+}
+
+.logo2 {
+    height: 60px !important;
+} 
+
+/* Fleche du bouton */
+#return-to-top i {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    top: 7px;
+    font-size: 12px;
+}
+
+/*--------------------------------------
+MENU HAUT
+----------------------------------------*/
+
+
+    i.fa {
+        margin-right: 50px;
+    }
+    
+    .fa {
+        font-size: 35px !important;
+    }
+    
+
+
+
+/*--------------------------------------
+PAGE INDEX 1ere partie section fond tropical titre et logo
+----------------------------------------*/
+
+
+    .banner-home {
+        height : 110vh !important;
+    }
+
+    .titreIndex {
+        position: relative;
+        font-size: 40px !important;
+        margin-top: 200px;
+        z-index: 1;
+    }
+
+    .soustitreIndex {
+        position: relative;
+        font-size: 30px !important;
+        z-index: 2 !important;
+    }
+
+    .bigLogo { 
+        height: 35%;
+    }
+
+    .gradient {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        background-color:rgba(255, 255, 255, 0.6);
+        height: 110vh;
+    }
+
+
+
+
+    /*==================== 
+    PAGE INDEX  2 eme partie   Section : citations  caroussel
+    ====================*/
+
+
+    .citation {
+        padding-top: 10vh;
+    }
+
+
+    .citationText {
+        font-size: 23px;
+        padding-bottom: 25px;
+    }
+
+    .signature {
+        font-size: 15px;
+        padding-bottom: 25px;
+    }
+
+    .freepik {
+        font-size: 10px;
+        margin-left: 3%;
+    }
+
+    /*==================== 
+    PAGE INDEX  3 eme partie   Section : meditation pourquoi
+    ====================*/
+
+    .section-4 img {
+        margin-top: 60px !important;
+        margin-left: 15px !important;
+        width: 311px !important;
+        height: 376px !important;
+    }
+
+    .section-4 .gradient {
+        margin-top: 60px !important;
+        margin-left: 15px !important;
+        width: 311px;
+        height: 376px;
+    }
+
+    .section-4 .logo2 {
+        margin-top: 20px !important;
+        width: auto !important;
+        padding-left: -50px !important;
+        height: 50px !important;
+    }
+
+    .section-4 h2 {
+        padding-left: -50px !important;
+        margin-left: -30px !important;
+    }
+
+    .section-4 p {
+        padding-right: 50px;
+    }
+
+
+    /*==================== 
+    PAGE INDEX  4 eme partie   Section : A propos de moi
+    ====================*/
+
+    .section-propos img {
+        margin-top: 60px !important;
+        margin-left: 15px !important;
+        width: 90% !important;
+    }
+
+    .section-propos .gradient {
+        margin-top: 60px !important;
+        margin-left: 15px !important;
+        width: 311px;
+        height: 376px;
+    }
+
+    .section-propos .logo2 {
+        margin-top: 20px !important;
+        width: auto !important;
+        padding-left: -50px !important;
+    }
+
+    .section-propos h2 {
+        padding-left: -50px !important;
+        margin-left: -30px !important;
+    }
+
+    .section-propos p {
+        padding-right: 50px;
+    }
+
+
+    /*==================== 
+    PAGE INDEX    Section : Footer
+    ====================*/
+
+    #photos iframe {
+        width: 350px !important;
+        height: 240px !important;
+    }
+
+
+  
+    
+}
+
+
+
+
+
+
+/*======================
+     Side-bar Styles
+======================*/
+
+/* Sidebar du coté */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8392156862745098);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+}
+
+.sidenav.hided {
+    width: 0;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover,
+.sidenav .active {
+    color: rgb(155, 184, 128);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

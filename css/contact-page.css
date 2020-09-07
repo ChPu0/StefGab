@@ -1,0 +1,25 @@
+
+/*==================== 
+GLOBAL page CONTACT-PAGE
+====================*/
+
+
+h3 {
+    font-size: 40px;
+    margin-left: 50px;
+
+}
+
+img.logo2 {
+    height : 70px !important;
+    width : 40px !important;
+}
+
+li {
+    font-size: 20px;
+}
+
+ul {
+    text-align: left ;
+    margin-left: 150px;
+}

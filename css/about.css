@@ -1,0 +1,166 @@
+
+/*==================== 
+GLOBAL page ABOUT
+====================*/
+
+.section-intro {
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background:rgb(60, 116, 105);
+    font-family: 'Old Standard TT', serif;
+    position: relative;
+    z-index: 1;
+}
+
+
+.section-intro figure img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    position: relative;
+}
+
+.section-intro .right-part {
+    padding: 70px;
+    padding-left: 50px;
+}
+
+.section-intro .right-part figure img {
+    width: 85%;
+    height: 250px;
+    object-fit: cover;
+}
+
+.section-intro .gradient {
+    position: absolute;
+    top: 0;
+    left: 15px;
+    width: 93.7%;
+    height: 100%;
+    background: -moz-linear-gradient(left, rgba(255, 0, 0, 0.3) 0%, rgba(255, 240, 0, 0.3) 100%);
+    background: -webkit-linear-gradient(left, rgba(255, 0, 0, 0.3) 0%, rgba(255, 240, 0, 0.3) 100%);
+    background: linear-gradient(to right, rgba(255, 0, 0, 0.3) 0%, rgba(255, 240, 0, 0.3) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4dff0000', endColorstr='#4dfff000', GradientType=1);
+}
+
+.section-intro .heading h2 {
+    font-size: 75px;
+}
+
+h3 {
+    color: rgb(221, 220, 189);
+    font-size: 40px;
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
+
+.section-intro p {
+    font-size: 22px;
+    text-align: justify;
+    padding-right: 100px;
+    color: rgb(221, 220, 189);
+    margin-left: 80px;
+}
+
+img.logo2 {
+    height : 70px;
+}
+
+
+/*==================== 
+ 1 ere partie   Page About/ Section : intro 
+====================*/
+
+.description {
+    font-size: 28px;
+    justify-content: space-evenly;
+    padding-bottom: 20px;
+    padding-right: 200px;
+    color: rgb(221, 220, 189);
+    margin-left: 100px;
+}
+
+p.description {
+    font-size: 21px;
+}
+
+/*==================== 
+ 2 eme partie   Page About/ Section : Q1 
+====================*/
+
+.QUN{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background:rgb(201, 142, 142);
+    font-family: 'Old Standard TT', serif;
+    position: relative;
+    z-index: 1;
+}
+
+p.quun{
+    color: #ffffff !important;
+}
+
+/*==================== 
+ 3 eme partie   Page About/ Section : Q2 
+====================*/
+
+.QDEUX {
+    width: 100%;
+    height: auto;
+    background:rgb(238, 191, 43);
+    font-family: 'Old Standard TT', serif;
+    z-index: 1;
+}
+
+.QDEUX p, .QDEUX h3 {
+    color: rgb(61, 58, 58);
+}
+
+.QDEUX p {
+    font-size: 20px;
+}
+
+
+/*==================== 
+ 4 eme partie   Page About/ Section : Q3 
+====================*/
+
+.QTROIS{
+    width: 100%;
+    height: auto;
+    color: #ffffff;
+    background:rgb(81, 165, 142);
+    font-family: 'Old Standard TT', serif;
+    position: relative;
+    z-index: 1;
+}
+
+.QTROIS p {
+    font-size: 20px;
+}
+
+/*==================== 
+ 5 eme partie   Page About/ Section : Q4
+====================*/
+
+.QQUATRE{
+    width: 100%;
+    height: auto;
+    background:rgb(251, 245, 223);
+    font-family: 'Old Standard TT', serif;
+    position: relative;
+    z-index: 1;
+}
+
+.QQUATRE h3 {
+    color: rgb(61, 58, 58);
+    margin-left: 50px;
+}
+
+.QQUATRE p {
+    color: rgb(61, 58, 58);
+    font-size: 20px;
+}

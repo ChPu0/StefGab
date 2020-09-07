@@ -1,0 +1,139 @@
+
+/*--------------------------------------
+responvive
+----------------------------------------*/
+
+@media only screen and (max-width: 450px) {
+
+    body {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+
+/*--------------------------------------
+GENERAL
+----------------------------------------*/
+h1{
+    font-size: 35px !important;
+}
+
+h2{
+    font-size: 28px !important;
+}
+
+h3{
+    font-size: 24px !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+#individuels {
+    display: inline !important;
+}
+
+.logo2 {
+    height: 60px !important;
+    width: 30px !important;
+    padding: 0 !important;
+} 
+
+/* Fleche du bouton */
+#return-to-top i {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    top: 7px;
+    font-size: 12px;
+}
+
+
+
+/*--------------------------------------
+MENU HAUT
+----------------------------------------*/
+
+
+    i.fa {
+        margin-right: 50px;
+    }
+    
+    .fa {
+        font-size: 35px !important;
+    }
+    
+    a.link {
+        display: none;
+    }
+
+
+/*======================
+     1 ere partie
+======================*/
+
+p.introd {
+    line-height: 1.2;
+}
+
+div.row {
+    padding-bottom: 30px !important;
+}
+
+p {
+    padding-left: 50px !important;
+}
+
+P {
+    margin-right: 0px;
+    margin-left: 0px;
+    justify-content: unset;
+}
+
+
+
+/*======================
+     Side-bar Styles
+======================*/
+
+/* Sidebar du coté */
+
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    right: 0;
+    background-color: rgba(0, 0, 0, 0.8392156862745098);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 70px;
+}
+
+.sidenav.hided {
+    width: 0;
+}
+
+.sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    display: block;
+    transition: 0.3s;
+}
+
+.sidenav a:hover,
+.sidenav .active {
+    color: rgb(155, 184, 128);
+}
+
+.sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+}

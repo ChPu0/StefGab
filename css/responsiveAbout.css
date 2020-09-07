@@ -1,0 +1,151 @@
+/*--------------------------------------
+responvive 600 pixels TELPHONES
+----------------------------------------*/
+
+@media only screen and (max-width: 700px) {
+
+    body {
+        font-size: 16px;
+        line-height: 1.2;
+    }
+
+
+/*--------------------------------------
+GENERAL
+----------------------------------------*/
+
+h2{
+    font-size: 35px !important;
+}
+
+h3{
+    font-size: 30px !important;
+}
+
+.logo2 {
+    height: 60px !important;
+} 
+
+/* Fleche du bouton */
+#return-to-top i {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    top: 7px;
+    font-size: 12px;
+}
+
+/*--------------------------------------
+MENU HAUT
+----------------------------------------*/
+
+
+    i.fa {
+        margin-right: 50px;
+    }
+    
+    .fa {
+        font-size: 35px !important;
+        z-index: 3 !important;
+    }
+    
+    .col-md-8 {
+
+        padding-left: 30px !important;
+        padding-right: 30px !important;
+    }
+
+    nav > div > div > div > p {
+        display: none !important;
+    }
+
+/*--------------------------------------
+CORPS
+----------------------------------------*/
+
+
+    p {
+        margin-left: 50px !important;
+        padding-right: 50px !important;
+        font-size: 17px !important;
+    }
+
+    .pic {
+        width: 40% !important;
+        margin-left: 30% !important;
+        margin-right: auto !important;
+    }
+
+    .gradient {
+        width: 40% !important;
+        margin-left: 28% !important;
+        margin-right: auto !important;
+    }
+}
+
+/*--------------------------------------
+responvive 450 pixels TELPHONES
+----------------------------------------*/
+
+@media only screen and (max-width: 450px) {
+
+    body {
+        font-size: 13px;
+        line-height: 1.2;
+    }
+
+
+/*--------------------------------------
+GENERAL
+----------------------------------------*/
+
+h2{
+    font-size: 28px !important;
+}
+
+h3{
+    font-size: 24px !important;
+}
+
+.logo2 {
+    height: 60px !important;
+} 
+
+/* Fleche du bouton */
+#return-to-top i {
+    color: #ffffff;
+    margin: 0;
+    position: relative;
+    left: 10px;
+    top: 7px;
+    font-size: 12px;
+}
+
+/*--------------------------------------
+MENU HAUT
+----------------------------------------*/
+
+
+    i.fa {
+        margin-right: 50px;
+    }
+    
+    .fa {
+        font-size: 35px !important;
+    }
+    
+    .col-md-8 {
+
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
+    p {
+        margin-left: 20px !important;
+        padding-right: 20px !important;
+    }
+}
+
+
+
