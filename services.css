@@ -1,0 +1,246 @@
+
+/*========================
+      Services-Page
+=========================*/
+
+#services {
+    padding-top: 30px;
+    padding-bottom: 100px;
+    position: relative;
+    font-family: 'Old Standard TT', serif;
+}
+
+#services .part-1,
+.part-2,
+.part-3 {
+    padding-bottom: 50px;
+}
+
+
+#services .fa-envira {
+    color:rgb(155, 184, 128);
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+ h1 {
+    color: rgb(251, 245, 223);
+    font-size: 76px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    font-weight: 500;
+    text-align: center;
+}
+
+ h2 {
+    color: rgb(251, 245, 223);
+    font-size: 56px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+ h3 {
+    color: #fff;
+    font-size: 46px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    margin-left: 100px;
+}
+
+
+p {
+    font-size: 22px;
+    line-height: 2;
+    font-weight: 400;
+    color: rgb(251, 245, 223);
+    margin-left: 50px;
+    margin-right:50px;
+    text-align: justify;
+}
+
+#services .col1 {
+    margin-top: -10px;
+}
+
+.logo2 {
+    height : 70px;
+}
+
+
+
+/* ===================================== 
+          SECTION 1 TITRE
+=========================================*/
+
+.title {
+    height : 50vh;
+    background-image: url(../images/fond.jpg);
+}
+
+
+
+/* ===================================== 
+          SECTION 2 A LA CARTE
+=========================================*/
+
+.aLaCarte {
+    background-color: rgb(201, 142, 142);
+}
+
+p.introd {
+    font-size: 24px !important;
+    line-height: 2;
+    font-weight: 400;
+    color: #FFF !important;
+}
+
+p.info {
+    padding-left: 150px !important;
+    font-size: 24px;
+}
+
+#imgCarte {
+    padding-top: 20px;
+}
+
+#carteGoogle1 {
+    padding-top: 100px;
+}
+
+#carteGoogle2 {
+    padding-top: 10px;
+}
+
+.btn-propos{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: transparent;
+    border-color: #FFF;
+    border: 2px solid #FFF;
+    font-family: 'Old Standard TT', serif;
+    color:  #FFF;
+    text-decoration: none;
+}
+
+.btn-propos:hover {
+    color: rgb(201, 142, 142);
+    background-color:  #FFF;
+    border: 2px solid  #FFF;
+}
+
+.contacter {
+    margin-left: 450px;
+}
+
+p.white {
+    color : #FFF;
+}
+
+.fb-page {
+    margin-left: 40%;
+    margin-right: auto;
+    margin-bottom: 50px;
+}
+
+
+/* ===================================== 
+          SECTION 3 MBSR
+=========================================*/
+
+.MBSR {
+    background-color: rgb(60, 116, 105);
+}
+
+p.MBSR {
+    font-size: 24px !important;
+    line-height: 2;
+    font-weight: 400;
+    color: #FFF !important;
+    padding-bottom: 40px;
+}
+
+ul {
+    font-size: 20px !important;
+    color: rgb(251, 245, 223);
+    line-height: 2;
+    margin-left: 150px;
+}
+
+
+.btn-propos2:hover {
+    color:  rgb(60, 116, 105);
+    background-color:  rgb(221, 220, 189);
+    border: 2px solid  rgb(221, 220, 189);
+}
+
+.btn-propos2{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: transparent;
+    border-color: rgb(221, 220, 189);
+    border: 2px solid rgb(221, 220, 189);
+    font-family: 'Old Standard TT', serif;
+    color:  rgb(221, 220, 189);
+    text-decoration: none;
+}
+
+.contacter2 {
+    margin-left: 150px;
+}
+
+/* ===================================== 
+          SECTION 4 YOGA
+=========================================*/
+
+.yoga {
+    background-color: rgb(221, 220, 189);
+    color: #000 !important;
+
+}
+
+p.introdYoga {
+    font-size: 24px !important;
+    line-height: 2;
+    font-weight: 400;
+    color: #000 !important;
+}
+
+p.infoYoga {
+    padding-left: 150px !important;
+    font-size: 24px;
+    color: #000 !important;
+}
+
+.btn-propos3:hover {
+    color:  rgb(221, 220, 189);
+    background-color:  #000;
+    border: 2px solid  #000;
+}
+
+.btn-propos3{
+    font-size: 18px;
+    padding: 10px 20px;
+    margin: 20px;
+    font-weight: 700;
+    border-radius: 100px;
+    background-color: transparent;
+    border-color:  #000;
+    border: 2px solid  #000;
+    font-family: 'Old Standard TT', serif;
+    color:   #000;
+    text-decoration: none;
+}
+
+.contacter3 {
+    margin-left: 150px;
+}
+
+.marge {
+    margin-bottom: 80px;
+}
